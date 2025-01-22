@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200..800&display=swap');
+
+/* reset */
+:root{
+    --primary-color: rgb(21, 45, 56);
+    --hover-color: rgb(25, 85, 25);
+    --accent-color: rgb(78, 78, 199);
+    --text-color: rgb(165, 165, 165);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "BioRhyme", serif;
+    color: var(--text-color);
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    min-height: 100dvh;
+    background-color: var(--primary-color);
+}
+main{
+    padding: min(5em, 7%)
+}
+main p{
+    margin-top: .35em;
+}
+nav{
+    background-color: var(--primary-color);
+    border-bottom: 3px solid var(--hover-color);
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    display: flex;
+}
+nav ul li a{
+    display: flex;
+    text-decoration: none;
+    padding: 1em 2em;
+    color: var(--text-color);
+    font-size: 20px;
+}
+nav ul li a:hover{
+    background-color: var(--hover-color);
+}
+nav .logo{
+    margin-right: auto;
+}
